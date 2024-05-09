@@ -23,3 +23,5 @@
 
 -> Каждые 10 минут делать запрос на *https://dev.azure.com/{organization}/{project}/_apis/wit/reporting/workitemrevisions*
 -> Распарсивает все Work Item которые были получены и добавляет/обновляет все Work Items, которые есть в таблице Tasks
+
+P.S: В данном проекте нет Azure DevOps токена.
