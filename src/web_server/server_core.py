@@ -3,7 +3,7 @@ from fastapi.responses import HTMLResponse
 from uvicorn import run
 from src.controller_db.source import engine
 from src.utils.config.table_models import Users, Achievement, Tasks
-
+from loguru import logger
 from sqlalchemy.orm import sessionmaker
 
 app = FastAPI()
@@ -56,4 +56,5 @@ def start_front_server():
 
 
 if __name__ == "__main__":
+    logger.info("server_core.py")
     start_front_server()
