@@ -3,6 +3,14 @@
 ## Запуск приложения
 
 Для запуска необходимо создать виртуальное окружение и активировать его.
+Создание 
+Windows: python -m venv venv
+Linux: python3 -m venv venv
+
+Активация
+Windows: venv/Scripts/activate
+Linux: source venv/bin/activate
+
 После этого необходимо ввести в терминал: *pip install -r requirements.txt*.
 После установки всех необходимый библиотек, можно запускать *main.py*
 
